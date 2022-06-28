@@ -10,4 +10,6 @@ Also feel free to edit the source as you feel fit, its definitely possible to ge
 
 Effectively as promised this will give you a radial intensity plot, also note the fact that you can limit the angle over which you sum the radial intensity. The point of this being that if your lenses are smudged or something this will allow you do get rid of the data that muddys the decomposition. Its not intended as a replacement for poor mirror allignment.
 
+It should also be noted that the outputed csv file that gives the intensity output per pixel radius is outputted wherever the matlab path is when you open up the source file, so its worth making sure your in whatever folder you want the output .csv s to go to when you run the program.
+
 ![Application Demo](https://raw.githubusercontent.com/Bill2107/CircularInterferencePatternAnalyser/Images-and-stuff/appDemo.png)
